@@ -2,7 +2,7 @@
 $directory = __DIR__ . '/dataBase/';
 $directory2 = __DIR__ . '/Script/';
 
-include 'env.php';
+include '.env';
 $remoteServer;
 $remoteDir;
 $port;

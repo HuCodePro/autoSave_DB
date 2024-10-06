@@ -5,7 +5,7 @@ $key = 'mysecretkey12345';  // Utilisez une clé plus robuste en production
 $iv = '1234567891011121';   // IV de 16 octets pour AES-128
 
 // Informations de connexion à la base de données
-include 'env.php';
+include '.env';
 
 // Création du nom de fichier pour la sauvegarde avec timestamp
 $backupFile = $directory . 'backup_' . date('Y-m-d_H-i-s') . '.sql';
